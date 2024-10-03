@@ -1,0 +1,63 @@
+---
+
+browser:
+  driver_path: Enter absolute path to your Microsoft Edge Driver application here. No quotes. (You may have to download this from the Internet. This file path should end with something like \edgedriver_win64\msedgedriver.exe).
+  edge_path: Enter absolute path to your Microsoft Edge browser here. No quotes. (If you already have Edge installed, it may look something like C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe)
+
+job_portal_boilerplate_paths: # Website boilerplate paths
+  root: "https://careers.liberty.edu/studentapp/?job_posting=R000" # Application
+  root_JD: "https://careers.liberty.edu/?job_posting=R000" # Job Description
+
+# Read job descriptions and find all your favorite jobs.
+# Write the last 4 digits of the links to each of them here, separated by bullet points.
+site_ids:
+  - '0638' # This is one site I'll apply to,
+  - '2448' # Amd this is a second site,
+  - '4099' # Third...
+  - '0986' # You get the point lol!
+
+# Enter basic information about you below:
+page_1: # Basic_Info
+  first_name: Jane
+  last_name: Doe
+  SSN: '000000000' # Enquote so YML don't interpret these as numbers
+  birth_date: '04'
+  birth_month: '07'
+  birth_year: '1776'
+  address_street: 8888 Mickey Mouse St.
+  address_city: DisneyWorld
+  address_state: Florida
+  address_zip: '99999'
+  resident_state: Florida
+  work_state: Florida
+  phone: '0123456789'
+  email: janedoe@disney.edu
+  will_come_to_work: 'Yes'
+
+page_2: # Eligibility_and_Major
+  eligible_4_work_study: 'No'
+  major: "Computer Science: Software Engineering"
+  international_student: 'Yes'
+
+page_3: # 7_Questions
+  question_1:
+    - Enter relevant technical skills here.
+    - If you want to fill any input box with multiple lines, separate your desired lines by bullet points.
+  question_2:
+    - Enter relevant honors and awards here.
+  question_3:
+    - Enter relevant professional skills here.
+  question_4:
+    - Enter relevant past experience here.
+  question_5:
+    - Enter relevant courseworks here.
+  question_6:
+    - Enter relevant soft skills here.
+  question_7:
+    - Enter relevant hard skills and softwares you're familiar using here.
+
+docs_to_upload:
+  resume: Enter absolute path to your resume (PDF form) here. No quotes.
+  recommendation_letter: Enter absolute path to your recommendation letter (PDF form) here. No quotes.
+
+...
